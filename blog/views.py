@@ -1,6 +1,5 @@
 from django.shortcuts import render
 
-
 posts = [
     {
         'id': 0,
@@ -43,6 +42,7 @@ posts = [
                 укутывал их, чтобы не испортились от дождя.''',
     },
 ]
+
 
 def index(request):
     """Главная страница"""
