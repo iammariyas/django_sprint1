@@ -47,7 +47,7 @@ posts = [
 def index(request):
     """Главная страница"""
     template = 'blog/index.html'
-    context = {'posts': posts}
+    context = {'posts': posts[::-1]}
     return render(request, template, context)
 
 
